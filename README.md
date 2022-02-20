@@ -22,7 +22,7 @@ The table above had **133,776 results**, but this doesn't mean we have that many
 
 ### B. Unique Titles
 
-After excluding those that have already left and filtering using distinct employee numbers, we finally got the number of **90,398 unique employees** with their most recent title:
+After excluding those that have already left and filtering using distinct employee numbers, we finally got the number of **72,458 unique employees** with their most recent title:
 
 ![](Pewlett-Hackard_Analysis_Folder/unique_titles.PNG)
 
@@ -33,7 +33,7 @@ A breakdown of these employees by title:
 
 ![](Pewlett-Hackard_Analysis_Folder/retiring_titles.PNG)
 
-More than half **(64%)** of them are **senior engineers/ senior staff.**
+The majority **(70%)** of them are **senior engineers/ senior staff.**
 
 
 ### D. Mentorship Eligibility
