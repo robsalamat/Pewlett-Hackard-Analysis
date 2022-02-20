@@ -10,7 +10,15 @@ Now hi manager wants him to determine the number of retiring employees per title
 
 ## II. Results
 
+![](Pewlett-Hackard Analysis Folder/retirement_titles.PNG)
 
 
+![](Pewlett-Hackard Analysis Folder/unique_titles.PNG)
+
+
+![](Pewlett-Hackard Analysis Folder/retiring_titles.PNG)
+
+
+![](Pewlett-Hackard Analysis Folder/mentorship_eligibility.PNG)
 
 ## III. Summary
