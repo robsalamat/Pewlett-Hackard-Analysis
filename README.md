@@ -49,12 +49,12 @@ There were a total of **1,549 employees eligible for the mentorship program.**
 
 In summary, there will be **72,458 employees that will retire in the next 3 years**. This is actually **30% of the current employees** of the entire company and will be ver problematic. As the "silver tsunami" begins to make an impact, **16,981 roles need to be filled up in the first year alone.** The breakdown of departments for the retiree/new_hire is shown below:
 
-![](Pewlett-Hackard_Analysis_Folder/first_year_dep.PNG)
+
 
 Pewlett-Packard aims to use employees that are **getting ready to retire (born:1965/Age:57)** as mentors for their newly hired employees. That means that on the 1st year, only 1,549 employees will be available to mentor 16,981 newly hired employees that will replace the retirees. The breakdown of departments for the mentors is shown below:
 
 
-![](Pewlett-Hackard_Analysis_Folder/mentor_dep.PNG)
+
 
 
 
