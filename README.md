@@ -55,7 +55,8 @@ Pewlett-Packard aims to use employees that are **getting ready to retire (born:1
 
 ![](Pewlett-Hackard_Analysis_Folder/mentor_dep.PNG)
 
+Comparing the 2 tables, we will get the new hire to mentor ratio:
 
+![](Pewlett-Hackard_Analysis_Folder/newhire_mentor_ratio.PNG)
 
-
-
+All new hire to mentor ratios are all below 20, with Finance department having the highest ratio at 14. Since the program wants the mentors to focus on just mentorship, these ratios are all doable.
