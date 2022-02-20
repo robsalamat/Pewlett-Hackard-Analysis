@@ -8,7 +8,7 @@ Pewlett_hackard is looking ahead and preparing itself for the silver tsunami. Us
 ### Objective
 Now, his manager wants him to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program.
 
-## II. Results
+## II. [Analysis and Results](Queries/Employee_Database_challenge.sql)
 
 ![](Pewlett-Hackard_Analysis_Folder/retirement_titles.PNG)
 
