@@ -46,10 +46,11 @@ There were a total of **1,549 employees eligible for mentorship.**
 
 
 ## III. Summary
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+In summary, there will be **72,458 employees that will retire in the next 3 years**. This is actually **30% of the current employees** of the entire company and will be ver problematic.
+
+As the "silver tsunami" begins to make an impact, **16,981 roles need to be filled up in the first year alone.**
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight
+
