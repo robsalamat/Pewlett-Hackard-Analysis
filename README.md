@@ -33,10 +33,16 @@ A breakdown of these employees by title:
 
 ![](Pewlett-Hackard_Analysis_Folder/retiring_titles.PNG)
 
+More than half **(64%)** of them are **senior engineers/ senior staff.**
+
 
 ### D. Mentorship Eligibility
 
+Filtering the employees based on those who were born in the year 1965, a mentorship-eligibility table was created below:
+
 ![](Pewlett-Hackard_Analysis_Folder/mentorship_eligibility.PNG)
+
+There were a total of **1,549 employees.**
 
 
 ## III. Summary
