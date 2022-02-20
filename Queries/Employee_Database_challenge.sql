@@ -90,7 +90,7 @@ f.dept_no
 INTO first_year_dep
 FROM first_year as f
 GROUP BY dept_no
-ORDER BY COUNT(dept_no) DESC;
+ORDER BY dept_no;
 
 SELECT * FROM  first_year_dep
 
@@ -117,6 +117,6 @@ me.dept_no
 INTO mentor_dep
 FROM mentorship_eligibility1 as me
 GROUP BY dept_no
-ORDER BY COUNT(dept_no) DESC;
+ORDER BY dept_no;
 
-SELECT * FROM  first_year_dep
+SELECT * FROM mentor_dep
