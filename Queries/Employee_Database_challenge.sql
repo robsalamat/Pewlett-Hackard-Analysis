@@ -63,3 +63,60 @@ AND (de.to_date = '9999-01-01')
 ORDER BY emp_no;
 
 SELECT * FROM  mentorship_eligibility
+
+
+-- DELIVERABLE 3.
+
+--getting the number of retirees on the first year 
+SELECT DISTINCT ON(e.emp_no)e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	de.dept_no
+--DISTINCT ON(emp_no)
+INTO first_year
+FROM employees AS e
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1952-12-31')
+AND (de.to_date = '9999-01-01')
+ORDER BY emp_no;
+
+--getting the dept of the retirees on the first year
+SELECT COUNT(f.emp_no),
+f.dept_no
+INTO first_year_dep
+FROM first_year as f
+GROUP BY dept_no
+ORDER BY COUNT(dept_no) DESC;
+
+SELECT * FROM  first_year_dep
+
+
+--Getting the depts of the employees eligible for the mentorship program.
+SELECT DISTINCT ON(e.emp_no)e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	de.dept_no
+--DISTINCT ON(emp_no)
+INTO mentorship_eligibility1
+FROM employees AS e
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01')
+ORDER BY emp_no;
+
+SELECT COUNT(me.emp_no),
+me.dept_no
+INTO mentor_dep
+FROM mentorship_eligibility1 as me
+GROUP BY dept_no
+ORDER BY COUNT(dept_no) DESC;
+
+SELECT * FROM  first_year_dep
