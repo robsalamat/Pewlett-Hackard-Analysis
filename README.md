@@ -42,7 +42,14 @@ Filtering the employees based on those who were born in the year 1965, a mentors
 
 ![](Pewlett-Hackard_Analysis_Folder/mentorship_eligibility.PNG)
 
-There were a total of **1,549 employees.**
+There were a total of **1,549 employees eligible for mentorship.**
 
 
 ## III. Summary
+Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+
+How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+The summary addresses the two questions and contains two additional queries or tables that may provide more insight
