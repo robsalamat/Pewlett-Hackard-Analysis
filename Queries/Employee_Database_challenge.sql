@@ -22,7 +22,7 @@ SELECT DISTINCT ON 	(rt.emp_no) rt.emp_no,
 					rt.last_name,
 					rt.title
 INTO unique_titles
-FROM retirees_titles AS rt
+FROM retirement_titles AS rt
 WHERE rt.to_date = ('9999-01-01')
 ORDER BY emp_no, to_date DESC;
 
